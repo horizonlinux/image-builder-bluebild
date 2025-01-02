@@ -80,7 +80,6 @@ modules:
       - gnome-shell-extension-dash-to-dock
       - libgda
       - libgda-sqlite
-      - nautilus-open-any-terminal
       - openssh-askpass
       - simple-scan
       - zenity
