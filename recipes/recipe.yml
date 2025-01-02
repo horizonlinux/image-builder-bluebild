@@ -72,8 +72,6 @@ modules:
       - gnome-initial-setup
       - gnome-control-center
       - gnome-settings-daemon
-      - gnome-software
-      - gnome-software-rpm-ostree
       - nautilus
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
@@ -91,6 +89,7 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - gnome-shell-extension-background-logo
+      - pipewire-pulseaudio
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
